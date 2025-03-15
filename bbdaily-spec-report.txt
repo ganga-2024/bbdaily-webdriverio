@@ -1,0 +1,264 @@
+F:\BT\webdriverio>npx wdio
+
+Execution of 1 workers started at 2025-03-14T09:22:32.587Z
+
+2025-03-14T09:22:32.639Z INFO @wdio/cli:launcher: Run onPrepare hook
+2025-03-14T09:22:32.673Z INFO @wdio/appium-service: Will spawn Appium process: cmd /c node F:\BT\webdriverio\node_modules\appium\index.js --base-path / --port 57503
+2025-03-14T09:22:36.255Z INFO @wdio/appium-service: Appium started with ID: 5952
+2025-03-14T09:22:36.256Z INFO @wdio/appium-service: Appium logs written to stdout
+2025-03-14T09:22:36.262Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2025-03-14T09:22:36.264Z INFO @wdio/local-runner: Start worker 0-0 with arg:
+[0-0] 2025-03-14T09:22:38.475Z INFO @wdio/local-runner: Run worker command: run
+[0-0] RUNNING in Android - file:///F:/BT/webdriverio/test/specs/bbdailytest.js
+[0-0] 2025-03-14T09:22:38.773Z INFO webdriver: Initiate new session using the WebDriver protocol
+[0-0] 2025-03-14T09:22:38.774Z INFO @wdio/utils: Connecting to existing driver at http://127.0.0.1:57503/
+[0-0] 2025-03-14T09:22:38.794Z INFO webdriver: [POST] http://127.0.0.1:57503/session
+[0-0] 2025-03-14T09:22:38.794Z INFO webdriver: DATA {
+[0-0]   capabilities: {
+[0-0]     alwaysMatch: {
+[0-0]       platformName: 'Android',
+[0-0]       'appium:platformVersion': '15',
+[0-0]       'appium:deviceName': 'emulator-5554',
+[0-0]       'appium:automationName': 'UiAutomator2',
+[0-0]       'appium:app': 'F:/BT/webdriverio/app/android/bbdaily.apk'
+[0-0]     },
+[0-0]     firstMatch: [ {} ]
+[0-0]   }
+[0-0] }
+[0-0] 2025-03-14T09:23:00.690Z INFO webdriver: COMMAND startRecordingScreen()
+[0-0] 2025-03-14T09:23:00.691Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/appium/start_recording_screen
+[0-0] 2025-03-14T09:23:02.892Z INFO webdriver: RESULT
+[0-0] 2025-03-14T09:23:02.897Z INFO webdriver: COMMAND findElement("id", "com.raincan.android.hybrid:id/mobile_number")
+[0-0] 2025-03-14T09:23:02.898Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element
+[0-0] 2025-03-14T09:23:02.899Z INFO webdriver: DATA { using: 'id', value: 'com.raincan.android.hybrid:id/mobile_number' }
+[0-0] 2025-03-14T09:23:07.818Z INFO webdriver: RESULT {
+[0-0]   error: 'no such element',
+[0-0]   message: 'An element could not be located on the page using the given search parameters.',
+[0-0]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-0]     '    at AndroidUiautomator2Driver.findElOrEls (F:\\BT\\webdriverio\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+[0-0]     '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+[0-0]     '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (F:\\BT\\webdriverio\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+[0-0]     '    at AndroidUiautomator2Driver.findElement (F:\\BT\\webdriverio\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+[0-0] }
+[0-0] 2025-03-14T09:23:07.838Z INFO webdriver: COMMAND findElements("id", "com.raincan.android.hybrid:id/mobile_number")
+[0-0] 2025-03-14T09:23:07.839Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/elements
+[0-0] 2025-03-14T09:23:07.839Z INFO webdriver: DATA { using: 'id', value: 'com.raincan.android.hybrid:id/mobile_number' }
+[0-0] 2025-03-14T09:23:09.827Z INFO webdriver: RESULT [
+[0-0]   {
+[0-0]     'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-04d6-ffff-ffff00000024',
+[0-0]     ELEMENT: '00000000-0000-04d6-ffff-ffff00000024'
+[0-0]   }
+[0-0] ]
+[0-0] 2025-03-14T09:23:09.836Z INFO webdriver: COMMAND findElement("id", "com.raincan.android.hybrid:id/mobile_number")
+[0-0] 2025-03-14T09:23:09.836Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element
+[0-0] 2025-03-14T09:23:09.836Z INFO webdriver: DATA { using: 'id', value: 'com.raincan.android.hybrid:id/mobile_number' }
+[0-0] 2025-03-14T09:23:10.453Z INFO webdriver: RESULT {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-04d6-ffff-ffff00000024',
+[0-0]   ELEMENT: '00000000-0000-04d6-ffff-ffff00000024'
+[0-0] }
+[0-0] 2025-03-14T09:23:10.460Z INFO webdriver: COMMAND findElement("id", "com.raincan.android.hybrid:id/mobile_number")
+[0-0] 2025-03-14T09:23:10.461Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element
+[0-0] 2025-03-14T09:23:10.461Z INFO webdriver: DATA { using: 'id', value: 'com.raincan.android.hybrid:id/mobile_number' }
+[0-0] 2025-03-14T09:23:10.720Z INFO webdriver: RESULT {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-04d6-ffff-ffff00000024',
+[0-0]   ELEMENT: '00000000-0000-04d6-ffff-ffff00000024'
+[0-0] }
+[0-0] 2025-03-14T09:23:10.727Z INFO webdriver: COMMAND elementClick("00000000-0000-04d6-ffff-ffff00000024")
+[0-0] 2025-03-14T09:23:10.727Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element/00000000-0000-04d6-ffff-ffff00000024/click
+[0-0] 2025-03-14T09:23:11.171Z INFO webdriver: RESULT null
+[0-0] 2025-03-14T09:23:11.172Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-04d6-ffff-ffff00000024", "9944696474")
+[0-0] 2025-03-14T09:23:11.173Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element/00000000-0000-04d6-ffff-ffff00000024/value
+[0-0] 2025-03-14T09:23:11.173Z INFO webdriver: DATA { text: '9944696474' }
+[0-0] 2025-03-14T09:23:14.094Z INFO webdriver: RESULT null
+[0-0] 2025-03-14T09:23:14.094Z INFO webdriver: COMMAND findElement("id", "com.raincan.android.hybrid:id/continue_login")
+[0-0] 2025-03-14T09:23:14.095Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element
+[0-0] 2025-03-14T09:23:14.096Z INFO webdriver: DATA { using: 'id', value: 'com.raincan.android.hybrid:id/continue_login' }
+[0-0] 2025-03-14T09:23:14.964Z INFO webdriver: RESULT {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-04d6-ffff-ffff00000026',
+[0-0]   ELEMENT: '00000000-0000-04d6-ffff-ffff00000026'
+[0-0] }
+[0-0] 2025-03-14T09:23:14.971Z INFO webdriver: COMMAND elementClick("00000000-0000-04d6-ffff-ffff00000026")
+[0-0] 2025-03-14T09:23:14.972Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element/00000000-0000-04d6-ffff-ffff00000026/click
+[0-0] 2025-03-14T09:23:15.256Z INFO webdriver: RESULT null
+[0-0] 2025-03-14T09:23:15.256Z INFO webdriver: COMMAND findElement("id", "com.raincan.android.hybrid:id/otp_text")
+[0-0] 2025-03-14T09:23:15.257Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element
+[0-0] 2025-03-14T09:23:15.257Z INFO webdriver: DATA { using: 'id', value: 'com.raincan.android.hybrid:id/otp_text' }
+[0-0] 2025-03-14T09:23:18.086Z INFO webdriver: RESULT {
+[0-0]   error: 'no such element',
+[0-0]   message: 'An element could not be located on the page using the given search parameters.',
+[0-0]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-0]     '    at AndroidUiautomator2Driver.findElOrEls (F:\\BT\\webdriverio\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+[0-0]     '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+[0-0]     '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (F:\\BT\\webdriverio\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+[0-0]     '    at AndroidUiautomator2Driver.findElement (F:\\BT\\webdriverio\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+[0-0] }
+[0-0] 2025-03-14T09:23:18.092Z INFO webdriver: COMMAND findElements("id", "com.raincan.android.hybrid:id/otp_text")
+[0-0] 2025-03-14T09:23:18.092Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/elements
+[0-0] 2025-03-14T09:23:18.092Z INFO webdriver: DATA { using: 'id', value: 'com.raincan.android.hybrid:id/otp_text' }
+[0-0] 2025-03-14T09:23:19.322Z INFO webdriver: RESULT [
+[0-0]   {
+[0-0]     'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-04d6-ffff-ffff0000003a',
+[0-0]     ELEMENT: '00000000-0000-04d6-ffff-ffff0000003a'
+[0-0]   }
+[0-0] ]
+[0-0] 2025-03-14T09:23:19.329Z INFO webdriver: COMMAND findElement("id", "com.raincan.android.hybrid:id/otp_text")
+[0-0] 2025-03-14T09:23:19.330Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element
+[0-0] 2025-03-14T09:23:19.330Z INFO webdriver: DATA { using: 'id', value: 'com.raincan.android.hybrid:id/otp_text' }
+[0-0] 2025-03-14T09:23:19.685Z INFO webdriver: RESULT {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-04d6-ffff-ffff0000003a',
+[0-0]   ELEMENT: '00000000-0000-04d6-ffff-ffff0000003a'
+[0-0] }
+[0-0] 2025-03-14T09:23:19.689Z INFO webdriver: COMMAND findElement("id", "com.raincan.android.hybrid:id/otp_text")
+[0-0] 2025-03-14T09:23:19.690Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element
+[0-0] 2025-03-14T09:23:19.690Z INFO webdriver: DATA { using: 'id', value: 'com.raincan.android.hybrid:id/otp_text' }
+[0-0] 2025-03-14T09:23:20.106Z INFO webdriver: RESULT {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-04d6-ffff-ffff0000003a',
+[0-0]   ELEMENT: '00000000-0000-04d6-ffff-ffff0000003a'
+[0-0] }
+[0-0] 2025-03-14T09:23:20.110Z INFO webdriver: COMMAND elementClick("00000000-0000-04d6-ffff-ffff0000003a")
+[0-0] 2025-03-14T09:23:20.111Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element/00000000-0000-04d6-ffff-ffff0000003a/click
+[0-0] 2025-03-14T09:23:20.586Z INFO webdriver: RESULT null
+[0-0] 2025-03-14T09:23:25.599Z INFO webdriver: COMMAND findElement("id", "com.raincan.android.hybrid:id/login_now")
+[0-0] 2025-03-14T09:23:25.600Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element
+[0-0] 2025-03-14T09:23:25.601Z INFO webdriver: DATA { using: 'id', value: 'com.raincan.android.hybrid:id/login_now' }
+[0-0] 2025-03-14T09:23:25.733Z INFO webdriver: RESULT {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-04d6-ffff-ffff00000040',
+[0-0]   ELEMENT: '00000000-0000-04d6-ffff-ffff00000040'
+[0-0] }
+[0-0] 2025-03-14T09:23:25.736Z INFO webdriver: COMMAND elementClick("00000000-0000-04d6-ffff-ffff00000040")
+[0-0] 2025-03-14T09:23:25.736Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element/00000000-0000-04d6-ffff-ffff00000040/click
+[0-0] 2025-03-14T09:23:26.398Z INFO webdriver: RESULT null
+[0-0] 2025-03-14T09:23:26.471Z INFO webdriver: COMMAND findElement("id", "com.raincan.android.hybrid:id/homePageSearchBox")
+[0-0] 2025-03-14T09:23:26.472Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element
+[0-0] 2025-03-14T09:23:26.472Z INFO webdriver: DATA {
+[0-0]   using: 'id',
+[0-0]   value: 'com.raincan.android.hybrid:id/homePageSearchBox'
+[0-0] }
+[0-0] 2025-03-14T09:23:30.936Z INFO webdriver: RESULT {
+[0-0]   error: 'no such element',
+[0-0]   message: 'An element could not be located on the page using the given search parameters.',
+[0-0]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-0]     '    at AndroidUiautomator2Driver.findElOrEls (F:\\BT\\webdriverio\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+[0-0]     '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+[0-0]     '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (F:\\BT\\webdriverio\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+[0-0]     '    at AndroidUiautomator2Driver.findElement (F:\\BT\\webdriverio\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+[0-0] }
+[0-0] 2025-03-14T09:23:30.941Z INFO webdriver: COMMAND findElements("id", "com.raincan.android.hybrid:id/homePageSearchBox")
+[0-0] 2025-03-14T09:23:30.942Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/elements
+[0-0] 2025-03-14T09:23:30.942Z INFO webdriver: DATA {
+[0-0]   using: 'id',
+[0-0]   value: 'com.raincan.android.hybrid:id/homePageSearchBox'
+[0-0] }
+[0-0] 2025-03-14T09:23:36.623Z INFO webdriver: RESULT [
+[0-0]   {
+[0-0]     'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-04db-ffff-ffff0000007c',
+[0-0]     ELEMENT: '00000000-0000-04db-ffff-ffff0000007c'
+[0-0]   }
+[0-0] ]
+[0-0] 2025-03-14T09:23:36.628Z INFO webdriver: COMMAND findElement("id", "com.raincan.android.hybrid:id/homePageSearchBox")
+[0-0] 2025-03-14T09:23:36.628Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element
+[0-0] 2025-03-14T09:23:36.628Z INFO webdriver: DATA {
+[0-0]   using: 'id',
+[0-0]   value: 'com.raincan.android.hybrid:id/homePageSearchBox'
+[0-0] }
+[0-0] 2025-03-14T09:23:37.049Z INFO webdriver: RESULT {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-04db-ffff-ffff0000007c',
+[0-0]   ELEMENT: '00000000-0000-04db-ffff-ffff0000007c'
+[0-0] }
+[0-0] 2025-03-14T09:23:37.053Z INFO webdriver: COMMAND findElement("id", "com.raincan.android.hybrid:id/homePageSearchBox")
+[0-0] 2025-03-14T09:23:37.054Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element
+[0-0] 2025-03-14T09:23:37.054Z INFO webdriver: DATA {
+[0-0]   using: 'id',
+[0-0]   value: 'com.raincan.android.hybrid:id/homePageSearchBox'
+[0-0] }
+[0-0] 2025-03-14T09:23:37.410Z INFO webdriver: RESULT {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-04db-ffff-ffff0000007c',
+[0-0]   ELEMENT: '00000000-0000-04db-ffff-ffff0000007c'
+[0-0] }
+[0-0] 2025-03-14T09:23:37.416Z INFO webdriver: COMMAND elementClick("00000000-0000-04db-ffff-ffff0000007c")
+[0-0] 2025-03-14T09:23:37.416Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element/00000000-0000-04db-ffff-ffff0000007c/click
+[0-0] 2025-03-14T09:23:37.594Z INFO webdriver: RESULT null
+[0-0] 2025-03-14T09:23:37.595Z INFO webdriver: COMMAND findElement("id", "com.raincan.android.hybrid:id/searchView")
+[0-0] 2025-03-14T09:23:37.595Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element
+[0-0] 2025-03-14T09:23:37.595Z INFO webdriver: DATA { using: 'id', value: 'com.raincan.android.hybrid:id/searchView' }
+[0-0] 2025-03-14T09:23:46.170Z INFO webdriver: RESULT {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-04db-ffff-ffff000000d8',
+[0-0]   ELEMENT: '00000000-0000-04db-ffff-ffff000000d8'
+[0-0] }
+[0-0] 2025-03-14T09:23:46.175Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-04db-ffff-ffff000000d8", "carrots")
+[0-0] 2025-03-14T09:23:46.175Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element/00000000-0000-04db-ffff-ffff000000d8/value
+[0-0] 2025-03-14T09:23:46.175Z INFO webdriver: DATA { text: 'carrots' }
+[0-0] 2025-03-14T09:23:47.125Z INFO webdriver: RESULT null
+[0-0] 2025-03-14T09:23:47.125Z INFO webdriver: COMMAND pressKeyCode(66)
+[0-0] 2025-03-14T09:23:47.126Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/appium/device/press_keycode
+[0-0] 2025-03-14T09:23:47.126Z INFO webdriver: DATA { keycode: 66 }
+[0-0] 2025-03-14T09:23:54.460Z INFO webdriver: RESULT null
+[0-0] 2025-03-14T09:23:55.475Z INFO webdriver: COMMAND findElement("-android uiautomator", "new UiSelector().resourceId("com.raincan.android.hybrid:id/btnAddToBasket").instance(0)")
+[0-0] 2025-03-14T09:23:55.476Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element
+[0-0] 2025-03-14T09:23:55.477Z INFO webdriver: DATA {
+[0-0]   using: '-android uiautomator',
+[0-0]   value: 'new UiSelector().resourceId("com.raincan.android.hybrid:id/btnAddToBasket").instance(0)'
+[0-0] }
+[0-0] 2025-03-14T09:23:57.326Z INFO webdriver: RESULT {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-04dc-ffff-ffff0000035d',
+[0-0]   ELEMENT: '00000000-0000-04dc-ffff-ffff0000035d'
+[0-0] }
+[0-0] 2025-03-14T09:23:57.334Z INFO webdriver: COMMAND elementClick("00000000-0000-04dc-ffff-ffff0000035d")
+[0-0] 2025-03-14T09:23:57.335Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element/00000000-0000-04dc-ffff-ffff0000035d/click
+[0-0] 2025-03-14T09:23:58.222Z INFO webdriver: RESULT null
+[0-0] 2025-03-14T09:23:59.235Z INFO webdriver: COMMAND findElement("-android uiautomator", "new UiSelector().text("View Cart")")
+[0-0] 2025-03-14T09:23:59.237Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element
+[0-0] 2025-03-14T09:23:59.238Z INFO webdriver: DATA {
+[0-0]   using: '-android uiautomator',
+[0-0]   value: 'new UiSelector().text("View Cart")'
+[0-0] }
+[0-0] 2025-03-14T09:24:13.013Z INFO webdriver: RESULT {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-04dc-ffff-ffff00000236',
+[0-0]   ELEMENT: '00000000-0000-04dc-ffff-ffff00000236'
+[0-0] }
+[0-0] 2025-03-14T09:24:13.020Z INFO webdriver: COMMAND elementClick("00000000-0000-04dc-ffff-ffff00000236")
+[0-0] 2025-03-14T09:24:13.021Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element/00000000-0000-04dc-ffff-ffff00000236/click
+[0-0] 2025-03-14T09:24:34.217Z INFO webdriver: RESULT null
+[0-0] 2025-03-14T09:24:34.728Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.raincan.android.hybrid:id/cart_amount']")
+[0-0] 2025-03-14T09:24:34.729Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element
+[0-0] 2025-03-14T09:24:34.729Z INFO webdriver: DATA {
+[0-0]   using: 'xpath',
+[0-0]   value: "//android.widget.TextView[@resource-id='com.raincan.android.hybrid:id/cart_amount']"
+[0-0] }
+[0-0] 2025-03-14T09:24:41.287Z INFO webdriver: RESULT {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-04de-ffff-ffff0000042f',
+[0-0]   ELEMENT: '00000000-0000-04de-ffff-ffff0000042f'
+[0-0] }
+[0-0] 2025-03-14T09:24:41.292Z INFO webdriver: COMMAND getElementText("00000000-0000-04de-ffff-ffff0000042f")
+[0-0] 2025-03-14T09:24:41.292Z INFO webdriver: [GET] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/element/00000000-0000-04de-ffff-ffff0000042f/text
+[0-0] 2025-03-14T09:24:41.327Z INFO webdriver: RESULT Total: ₹26
+[0-0] Total amount is: Total: ₹26
+[0-0] 2025-03-14T09:24:41.328Z INFO webdriver: COMMAND stopRecordingScreen()
+[0-0] 2025-03-14T09:24:41.328Z INFO webdriver: [POST] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204/appium/stop_recording_screen
+[0-0] 2025-03-14T09:24:42.686Z INFO webdriver: RESULT AAAAGGZ0eXBtcDQyAAAAAGlzb21tcDQyAAAMeGZyZWUwMDAwMDAwMDAwMDAwM...
+[0-0] 2025-03-14T09:24:42.699Z INFO webdriver: COMMAND deleteSession()
+[0-0] 2025-03-14T09:24:42.699Z INFO webdriver: [DELETE] http://127.0.0.1:57503/session/f47d469e-ca08-4436-a05d-3341e4d75204
+[0-0] 2025-03-14T09:24:44.267Z INFO webdriver: RESULT null
+[0-0] PASSED in Android - file:///F:/BT/webdriverio/test/specs/bbdailytest.js
+2025-03-14T09:24:44.424Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[bbdaily.apk Android #0-0] Running: bbdaily.apk on Android
+[bbdaily.apk Android #0-0] Session ID: f47d469e-ca08-4436-a05d-3341e4d75204
+[bbdaily.apk Android #0-0]
+[bbdaily.apk Android #0-0] » \test\specs\bbdailytest.js
+[bbdaily.apk Android #0-0] Bbdaily App Tests
+[bbdaily.apk Android #0-0]    ✓ Buy carrot and print total bill amount
+[bbdaily.apk Android #0-0]
+[bbdaily.apk Android #0-0] 1 passing (1m 43.5s)
+
+
+Spec Files:      1 passed, 1 total (100% completed) in 00:02:11
+
+2025-03-14T09:24:44.428Z INFO @wdio/local-runner: Shutting down spawned worker
+2025-03-14T09:24:44.683Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2025-03-14T09:24:44.684Z INFO @wdio/local-runner: shutting down
+2025-03-14T09:24:44.685Z INFO @wdio/cli:launcher: Run onComplete hook
+2025-03-14T09:24:44.686Z INFO @wdio/appium-service: Killing entire Appium tree
+2025-03-14T09:24:44.958Z INFO @wdio/appium-service: Process and its children successfully terminated
